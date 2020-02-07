@@ -1,0 +1,49 @@
+{
+  materials: [
+    {
+      name: 'lambert8SG',
+      parameters: [
+        {
+          baseColor: 'Cardigan_Welsh_Corgi_dif',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/corgi/doggie8.obj',
+    name: 'doggie8',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/corgi\\Cardigan_Welsh_Corgi_dif.jpg',
+      name: 'Cardigan_Welsh_Corgi_dif',
+      pipeline_name: 'Cardigan_Welsh_Corgi_dif.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
